@@ -1,0 +1,296 @@
+1M Immune Cells	development_stage	adult	EFO:0001272
+1M Immune Cells	development_stage	postpartum	EFO:0008562
+1M Immune Cells	dissociation_method	10x v2	EFO:0009310
+1M Immune Cells	ethnicity	African-american	HANCESTRO:0568
+1M Immune Cells	ethnicity	Asian	HANCESTRO:0008
+1M Immune Cells	ethnicity	Caucasian	HANCESTRO:0005
+1M Immune Cells	genus_species	Homo sapiens	NCBITaxon:9606
+1M Immune Cells	height_unit	centimeter	UO:0000015
+1M Immune Cells	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+1M Immune Cells	instrument_manufacturer_model	Illumina Hiseq X 10	EFO:0008567
+1M Immune Cells	library_construction_approach	10X v2 sequencing	EFO:0009310
+1M Immune Cells	organ	blood	UBERON:0000178
+1M Immune Cells	organ	immune system	UBERON:0002405
+1M Immune Cells	organism_age_unit	year	UO:0000036
+1M Immune Cells	organ_part	bone marrow	UBERON:0002371
+1M Immune Cells	organ_part	umbilical cord blood	UBERON:0012168
+1M Immune Cells	selected_cell_type	bone marrow hematopoietic cell	CL:1001610
+1M Immune Cells	selected_cell_type	umbilical cord blood cell	CL:2000095
+1M Immune Cells	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+1M Immune Cells	weight_unit	kilogram	UO:0000009
+1M Neurons	development_stage	Embryo stage	EFO:0007725
+1M Neurons	diseases	normal	PATO:0000461
+1M Neurons	dissociation_method	enzymatic dissociation	EFO:0009128
+1M Neurons	genus_species	Mus musculus	NCBITaxon:10090
+1M Neurons	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+1M Neurons	instrument_manufacturer_model	Illumina HiSeq 4000	EFO:0008563
+1M Neurons	library_construction_approach	10x_v2	EFO:0009310
+1M Neurons	organ	Brain	UBERON:0000955
+1M Neurons	organism_age_unit	day	UO:0000033
+1M Neurons	organ_part	cortex	UBERON:0001851
+1M Neurons	selected_cell_type	neuron	CL:0000540
+1M Neurons	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+1M Neurons	storage_time_unit	day	UO:0000033
+1M Neurons	strain	C57BL/6	EFO:0004472
+An in vitro model of human inhibitory interneuron differentiation produced over time	cell_type	embryonic stem cell	CL:0002322
+An in vitro model of human inhibitory interneuron differentiation produced over time	development_stage	embryo	UBERON:0000068
+An in vitro model of human inhibitory interneuron differentiation produced over time	disease	normal	PATO:0000461
+An in vitro model of human inhibitory interneuron differentiation produced over time	diseases	normal	PATO:0000461
+An in vitro model of human inhibitory interneuron differentiation produced over time	dissociation_method	enzymatic dissociation	EFO:0009128
+An in vitro model of human inhibitory interneuron differentiation produced over time	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+An in vitro model of human inhibitory interneuron differentiation produced over time	genus_species	Homo sapiens	NCBITaxon:9606
+An in vitro model of human inhibitory interneuron differentiation produced over time	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+An in vitro model of human inhibitory interneuron differentiation produced over time	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008565
+An in vitro model of human inhibitory interneuron differentiation produced over time	library_construction_approach	Smart-seq2	EFO:0008931
+An in vitro model of human inhibitory interneuron differentiation produced over time	organ	embryo	UBERON:0000922
+An in vitro model of human inhibitory interneuron differentiation produced over time	organ_part	blastocyst	UBERON:0000358
+An in vitro model of human inhibitory interneuron differentiation produced over time	selected_cell_type	inhibitory interneurons	CL:0000498
+An in vitro model of human inhibitory interneuron differentiation produced over time	sequencing_approach	RNA-Seq	EFO:0008896
+BM_PC	cdna_library_amplification_method	PCR	OBI:0000415
+BM_PC	cell_size_unit	micrometer	UO:0000017
+BM_PC	collection_method	Ficoll-Hypaque method	EFO:0009110
+BM_PC	development_stage	adult	EFO:0001272
+BM_PC	enrichment_method	magnetic affinity cell sorting	EFO:0009109
+BM_PC	genus_species	Homo sapiens	NCBITaxon:9606
+BM_PC	input_nucleic_acid_molecule	mRNA	CHEBI:33699
+BM_PC	instrument_manufacturer_model	Illumina NextSeq500	EFO:0009173
+BM_PC	library_construction_approach	MARS-seq	EFO:0008796
+BM_PC	library_preamplification_method	In vitro transcription	EFO:0009013
+BM_PC	organ	bone	UBERON:0004177
+BM_PC	organism_age_unit	year	UO:0000036
+BM_PC	organ_part	bone marrow	UBERON:0002371
+BM_PC	selected_cell_type	Plasma cells	CL:0000786
+BM_PC	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+CD4+ cytotoxic T lymphocytes	collection_method	blood draw	EFO:0009121
+CD4+ cytotoxic T lymphocytes	collection_method	leukapheresis	EFO:0009126
+CD4+ cytotoxic T lymphocytes	development_stage	adult	EFO:0001272
+CD4+ cytotoxic T lymphocytes	diseases	asymptomatic dengue	MONDO:0000259
+CD4+ cytotoxic T lymphocytes	diseases	normal	PATO:0000461
+CD4+ cytotoxic T lymphocytes	dissociation_method	fluorescence-activated cell sorting	EFO:0009108
+CD4+ cytotoxic T lymphocytes	enrichment_method	Ficoll-Hypaque method	EFO:0009110
+CD4+ cytotoxic T lymphocytes	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+CD4+ cytotoxic T lymphocytes	genus_species	Homo sapiens	NCBITaxon:9606
+CD4+ cytotoxic T lymphocytes	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+CD4+ cytotoxic T lymphocytes	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008565
+CD4+ cytotoxic T lymphocytes	library_construction_approach	Smart-seq2	EFO:0008931
+CD4+ cytotoxic T lymphocytes	library_preamplification_method	PCR	OBI:0000415
+CD4+ cytotoxic T lymphocytes	organ	blood	UBERON:0000178
+CD4+ cytotoxic T lymphocytes	organism_age_unit	year	UO:0000036
+CD4+ cytotoxic T lymphocytes	organ_part	peripheral blood mononuclear cell	CL:2000001
+CD4+ cytotoxic T lymphocytes	selected_cell_type	DENV antigen specific TEM	CL:0000625
+CD4+ cytotoxic T lymphocytes	selected_cell_type	DENV antigen specific TEMRA	CL:0001062
+CD4+ cytotoxic T lymphocytes	selected_cell_type	IL7R high TEMRA	CL:0001062
+CD4+ cytotoxic T lymphocytes	selected_cell_type	IL7R low TEMRA	CL:0001062
+CD4+ cytotoxic T lymphocytes	selected_cell_type	TCM	CL:0000625
+CD4+ cytotoxic T lymphocytes	selected_cell_type	TEM	CL:0000625
+CD4+ cytotoxic T lymphocytes	selected_cell_type	TEMRA	CL:0001062
+CD4+ cytotoxic T lymphocytes	sequencing_approach	full length single cell RNA sequencing	EFO:0008441
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	cell_size_unit	micrometer	UO:0000017
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	cell_type	cardiomyocyte	CL:0000746
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	cell_type	induced pluripotent stem cell	CL:0002248
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	cell_type	lymphocyte of B lineage	CL:0000945
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	diseases	normal	PATO:0000461
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	dissociation_method	mechanical dissociation	EFO:0009129
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	ethnicity	YORUBA	HANCESTRO:0575
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	genus_species	Homo sapiens	NCBITaxon:9606
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	input_nucleic_acid_molecule	mRNA	CHEBI:33699
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	instrument_manufacturer_model	Illumina NextSeq 500	EFO:0009173
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	library_construction_approach	DroNc-seq	EFO:0008720
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	library_construction_approach	Drop-seq	EFO:0008722
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	organ	blood	UBERON:0000178
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	organ_part	venous blood	UBERON:0013756
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	sequencing_approach	DroNc-seq	EFO:0008720
+Drop-seq, DroNc-seq, Fluidigm C1 Comparison	sequencing_approach	Drop-seq	EFO:0008722
+Fetal/Maternal Interface	collection_method	blood draw	EFO:0009121
+Fetal/Maternal Interface	development_stage	adult	EFO:0001272
+Fetal/Maternal Interface	development_stage	embryo	HsapDv:0000021
+Fetal/Maternal Interface	development_stage	embryo	HsapDv:0000025
+Fetal/Maternal Interface	development_stage	embryo	HsapDv:0000029
+Fetal/Maternal Interface	development_stage	embryo	HsapDv:0000030
+Fetal/Maternal Interface	development_stage	fetus	HsapDv:0000047
+Fetal/Maternal Interface	diseases	Edwards syndrome	MONDO:0010336
+Fetal/Maternal Interface	diseases	normal	PATO:0000461
+Fetal/Maternal Interface	dissociation_method	enzymatic (collagenase V)	EFO:0009128
+Fetal/Maternal Interface	dissociation_method	enzymatic (trypsin/collagenase V)	EFO:0009128
+Fetal/Maternal Interface	enrichment_method	cell size selection	EFO:0009337
+Fetal/Maternal Interface	enrichment_method	Ficoll-paque gradient	EFO:0009112
+Fetal/Maternal Interface	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+Fetal/Maternal Interface	genus_species	Homo sapiens	NCBITaxon:9606
+Fetal/Maternal Interface	gestational_age_unit	weeks	UO:0000034
+Fetal/Maternal Interface	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Fetal/Maternal Interface	instrument_manufacturer_model	Illumina HiSeq 2000	EFO:0004203
+Fetal/Maternal Interface	instrument_manufacturer_model	Illumina HiSeq 4000	EFO:0008563
+Fetal/Maternal Interface	library_construction_approach	Chromium 3' Single Cell v2	EFO:0009310
+Fetal/Maternal Interface	library_construction_approach	Smart-seq2	EFO:0008931
+Fetal/Maternal Interface	organ	blood	UBERON:0000178
+Fetal/Maternal Interface	organ	decidua	UBERON:0002450
+Fetal/Maternal Interface	organ	placenta	UBERON:0001987
+Fetal/Maternal Interface	selected_cell_type	CD45+	CL:0000738
+Fetal/Maternal Interface	selected_cell_type	myeloid cell	CL:0000763
+Fetal/Maternal Interface	selected_cell_type	NK cell	CL:0000623
+Fetal/Maternal Interface	selected_cell_type	PB	CL:2000001
+Fetal/Maternal Interface	selected_cell_type	T cell	CL:0000084
+Fetal/Maternal Interface	sequencing_approach	full length single cell RNA sequencing	EFO:0008441
+Fetal/Maternal Interface	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+Healthy and type 2 diabetes pancreas	development_stage	adult	EFO:0001272
+Healthy and type 2 diabetes pancreas	diseases	normal	PATO:0000461
+Healthy and type 2 diabetes pancreas	diseases	type II diabetes mellitus	MONDO:0005148
+Healthy and type 2 diabetes pancreas	dissociation_method	fluorescence-activated cell sorting	EFO:0009108
+Healthy and type 2 diabetes pancreas	genus_species	Homo sapiens	NCBITaxon:9606
+Healthy and type 2 diabetes pancreas	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Healthy and type 2 diabetes pancreas	instrument_manufacturer_model	Illumina HiSeq 2000	EFO:0004203
+Healthy and type 2 diabetes pancreas	library_construction_approach	Smart-seq2	EFO:0008931
+Healthy and type 2 diabetes pancreas	organism_age_unit	year	UO:0000036
+Healthy and type 2 diabetes pancreas	organ	pancreas	UBERON:0001264
+Healthy and type 2 diabetes pancreas	organ_part	islet of Langerhans	UBERON:0000006
+Healthy and type 2 diabetes pancreas	sequencing_approach	full length single cell RNA sequencing	EFO:0008441
+HPSI human cerebral organoids	cell_type	pluripotent stem cell	CL:0002248
+HPSI human cerebral organoids	disease	normal	PATO:0000461
+HPSI human cerebral organoids	diseases	normal	PATO:0000461
+HPSI human cerebral organoids	dissociation_method	Papain-based enzymatic dissociation	EFO:0009128
+HPSI human cerebral organoids	ethnicity	European, White, British	HANCESTRO:0462
+HPSI human cerebral organoids	ethnicity	White - other, Ad Mixed American	HANCESTRO:0463
+HPSI human cerebral organoids	genus_species	Homo sapiens	NCBITaxon:9606
+HPSI human cerebral organoids	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+HPSI human cerebral organoids	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008565
+HPSI human cerebral organoids	library_construction_approach	Chromium 3' Single Cell v2	EFO:0009310
+HPSI human cerebral organoids	model_for_organ	Brain	UBERON:0000955
+HPSI human cerebral organoids	organism_age_unit	year	UO:0000036
+HPSI human cerebral organoids	organoid_age_unit	day	UO:0000033
+HPSI human cerebral organoids	organ_part	skin epidermis	UBERON:0001003
+HPSI human cerebral organoids	organ	skin of body	UBERON:0002097
+HPSI human cerebral organoids	selected_cell_type	neural cell	CL:0002319
+HPSI human cerebral organoids	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+Human Hematopoietic Profiling	cell_type	CD34-positive, CD38-negative hematopoietic stem cell	CL:0001024
+Human Hematopoietic Profiling	collection_method	Bone marrow aspiration	EFO:0009292
+Human Hematopoietic Profiling	development_stage	adult	EFO:0001272
+Human Hematopoietic Profiling	diseases	normal	PATO:0000461
+Human Hematopoietic Profiling	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+Human Hematopoietic Profiling	ethnicity	African American, Hispanic	hancestro:0014
+Human Hematopoietic Profiling	ethnicity	European	hancestro:0005
+Human Hematopoietic Profiling	genus_species	Homo sapiens	NCBITaxon:9606
+Human Hematopoietic Profiling	height_unit	meter	UO:0000008
+Human Hematopoietic Profiling	input_nucleic_acid_molecule	mRNA	CHEBI:33699
+Human Hematopoietic Profiling	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008565
+Human Hematopoietic Profiling	library_construction_approach	10X v2 sequencing	EFO:0009310
+Human Hematopoietic Profiling	organ	bone	UBERON:0001474
+Human Hematopoietic Profiling	organism_age_unit	year	UO:0000036
+Human Hematopoietic Profiling	organ_part	bone marrow	UBERON:0002371
+Human Hematopoietic Profiling	selected_cell_type	CD34-positive, CD38-negative hematopoietic stem cell	CL:0001024
+Human Hematopoietic Profiling	sequencing_approach	10X sequencing	EFO:0008995
+Human Hematopoietic Profiling	weight_unit	kilogram	UO:0000009
+Kidney biopsy scRNA-seq	cell_size_unit	millimeter	UO:0000016
+Kidney biopsy scRNA-seq	collection_method	percutaneous kidney biopsy	EFO:0009293
+Kidney biopsy scRNA-seq	development_stage	Adult	EFO:0001272
+Kidney biopsy scRNA-seq	diseases	ESRD	MONDO:0004375
+Kidney biopsy scRNA-seq	diseases	hemolytic uremic syndrome	MONDO:0001549
+Kidney biopsy scRNA-seq	dissociation_method	enzymatic dissociation using DNAse1 and Liberase	EFO:0009128
+Kidney biopsy scRNA-seq	ethnicity	European	HANCESTRO:0005
+Kidney biopsy scRNA-seq	genus_species	Homo sapiens	NCBITaxon:9606
+Kidney biopsy scRNA-seq	input_nucleic_acid_molecule	mRNA	CHEBI:33699
+Kidney biopsy scRNA-seq	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008565
+Kidney biopsy scRNA-seq	instrument_manufacturer_model	Illumina NextSeq 500	EFO:0009173
+Kidney biopsy scRNA-seq	library_construction_approach	High-throughput single-cell labeling with indexing droplets	EFO:0008780
+Kidney biopsy scRNA-seq	organism_age_unit	year	UO:0000036
+Kidney biopsy scRNA-seq	organ	kidney	UBERON:0002113
+Kidney biopsy scRNA-seq	organ_part	cortex of kidney	UBERON:0001225
+Kidney biopsy scRNA-seq	selected_cell_type	endothelial cells	CL:0000115
+Kidney biopsy scRNA-seq	selected_cell_type	epithelial cells	CL:0000066
+Kidney biopsy scRNA-seq	selected_cell_type	fibroblasts	CL:0000057
+Kidney biopsy scRNA-seq	selected_cell_type	monocytes	CL:0000576
+Kidney biopsy scRNA-seq	selected_cell_type	myofibroblasts	CL:0000186
+Kidney biopsy scRNA-seq	sequencing_approach	InDrops	EFO:0008780
+Mouse Melanoma	diseases	subcutaneous melanoma	MONDO:0005105
+Mouse Melanoma	dissociation_method	mechanical dissociation	EFO:0009129
+Mouse Melanoma	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+Mouse Melanoma	genus_species	Mus musculus	NCBITaxon:10090
+Mouse Melanoma	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Mouse Melanoma	instrument_manufacturer_model	Illumina HiSeq 2500	EFO:0008567
+Mouse Melanoma	library_construction_approach	Smart-seq2	EFO:0008931
+Mouse Melanoma	organism_age_unit	week	UO:0000034
+Mouse Melanoma	organ	lymph node	UBERON:0000029
+Mouse Melanoma	organ	skin	UBERON:0002097
+Mouse Melanoma	selected_cell_type	B Cell	CL:0000236
+Mouse Melanoma	selected_cell_type	CD4+ T cell	CL:0000624
+Mouse Melanoma	selected_cell_type	CD8+ T cell	CL:0000625
+Mouse Melanoma	selected_cell_type	ILCs	CL:0001065
+Mouse Melanoma	sequencing_approach	Smart-seq2	EFO:0008931
+Mouse Melanoma	strain	C57BL/6	EFO:0004472
+Multiplexed scRNA-seq with barcoded antibodies	development_stage	adult	EFO:0001272
+Multiplexed scRNA-seq with barcoded antibodies	diseases	normal	PATO:0000461
+Multiplexed scRNA-seq with barcoded antibodies	dissociation_method	10x_v2	EFO:0009310
+Multiplexed scRNA-seq with barcoded antibodies	genus_species	Homo sapiens	NCBITaxon:9606
+Multiplexed scRNA-seq with barcoded antibodies	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Multiplexed scRNA-seq with barcoded antibodies	instrument_manufacturer_model	Illumina Hiseq 2500	EFO:0008565
+Multiplexed scRNA-seq with barcoded antibodies	library_construction_approach	10x_v2	EFO:0009310
+Multiplexed scRNA-seq with barcoded antibodies	organ	blood	UBERON:0000178
+Multiplexed scRNA-seq with barcoded antibodies	selected_cell_type	peripheral blood mononuclear cells	CL:2000001
+Multiplexed scRNA-seq with barcoded antibodies	sequencing_approach	CITE-seq	EFO:0009294
+Single cell transcriptome analysis of human pancreas	diseases	normal	PATO:0000461
+Single cell transcriptome analysis of human pancreas	dissociation_method	fluorescence-activated cell sorting	EFO:0009108
+Single cell transcriptome analysis of human pancreas	enrichment_method	FACS	EFO:0009108
+Single cell transcriptome analysis of human pancreas	ethnicity	African American/Afro-Caribbean	hancestro:0016
+Single cell transcriptome analysis of human pancreas	ethnicity	Asian	hancestro:0008
+Single cell transcriptome analysis of human pancreas	ethnicity	European	hancestro:0005
+Single cell transcriptome analysis of human pancreas	genus_species	Homo sapiens	NCBITaxon:9606
+Single cell transcriptome analysis of human pancreas	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Single cell transcriptome analysis of human pancreas	instrument_manufacturer_model	Illumina NextSeq 500	EFO:0008566
+Single cell transcriptome analysis of human pancreas	library_construction_approach	Smart-seq2	EFO:0008931
+Single cell transcriptome analysis of human pancreas	organism_age_unit	month	UO:0000035
+Single cell transcriptome analysis of human pancreas	organism_age_unit	year	UO:0000036
+Single cell transcriptome analysis of human pancreas	organ	pancreas	UBERON:0001264
+Single cell transcriptome analysis of human pancreas	organ_part	islet of Langerhans	UBERON:0000006
+Single cell transcriptome analysis of human pancreas	sequencing_approach	RNA-Seq	EFO:0008896
+STUDY  PROPERTY_TYPE	PROPERTY_VALUE	SEMANTIC_TAGHPSI human cerebral organoids	genus_species	Homo sapiens	NCBITaxon:9606
+Tabula Muris	collection_method	dissection	EFO:0003856
+Tabula Muris	development_stage	post juvenile adult stage	UBERON:0000113
+Tabula Muris	diseases	normal	PATO:0000461
+Tabula Muris	dissociation_method	enzymatic dissociation	EFO:0009128
+Tabula Muris	dissociation_method	mechanical dissociation	EFO:0009129
+Tabula Muris	enrichment_method	fluorescence-activated cell sorting	EFO:0009108
+Tabula Muris	enrichment_method	microfluidic droplet platform	EFO:0009108
+Tabula Muris	enrichment_method	microfluidic droplet platform|| fluorescence-activated cell sorting	EFO:0009108
+Tabula Muris	genus_species	Mus musculus	NCBITaxon:10090
+Tabula Muris	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Tabula Muris	instrument_manufacturer_model	Illumina NovaSeq 6000	EFO:0008637
+Tabula Muris	library_construction_approach	Smart-seq2	EFO:0008931
+Tabula Muris	organ	bladder	UBERON:0018707
+Tabula Muris	organ	bone	UBERON:0002481
+Tabula Muris	organ	brain	UBERON:0000955
+Tabula Muris	organ	diaphragm	UBERON:0001103
+Tabula Muris	organ	fat	UBERON:0001013
+Tabula Muris	organ	heart	UBERON:0000948
+Tabula Muris	organism_age_unit	month	UO:0000035
+Tabula Muris	organ	kidney	UBERON:0002113
+Tabula Muris	organ	large intestine	UBERON:0000059
+Tabula Muris	organ	liver	UBERON:0002107
+Tabula Muris	organ	lung endomucin	UBERON:0002048
+Tabula Muris	organ	lung epcam	UBERON:0002048
+Tabula Muris	organ	lung	UBERON:0002048
+Tabula Muris	organ	mammary gland	UBERON:0001911
+Tabula Muris	organ	muscle	UBERON:0001630
+Tabula Muris	organ	pancreas	UBERON:0001264
+Tabula Muris	organ	skin	UBERON:0002097
+Tabula Muris	organ	spleen	UBERON:0002106
+Tabula Muris	organ	thymus	UBERON:0002370
+Tabula Muris	organ	tongue	UBERON:0001723
+Tabula Muris	organ	trachea	UBERON:0003126
+Tabula Muris	sequencing_approach	full length single cell RNA sequencing	EFO:0008441
+Tabula Muris	strain	c57bl/6	EFO:0004472
+Tissue stability	development_stage	adult	EFO:0001272
+Tissue stability	diseases	normal	PATO:0000461
+Tissue stability	dissociation_method	enzymatic	EFO:0009128
+Tissue stability	dissociation_method	mechanical	EFO:0009129
+Tissue stability	enrichment_method	magnetic affinity cell sorting	EFO:0009109
+Tissue stability	genus_species	Homo sapiens	NCBITaxon:9606
+Tissue stability	height_unit	meter	UO:0000008
+Tissue stability	input_nucleic_acid_molecule	polyA RNA	OBI:0000869
+Tissue stability	instrument_manufacturer_model	Illumina HiSeq 4000	EFO:0008563
+Tissue stability	library_construction_approach	10X v2 sequencing	EFO:0009310
+Tissue stability	organism_age_unit	year	UO:0000036
+Tissue stability	organ	oesophagus	UBERON:0001043
+Tissue stability	organ_part	epithelium only; end of oesophagus closest to stomach	UBERON:0001976
+Tissue stability	organ_part	epithelium only	UBERON:0001976
+Tissue stability	organ	spleen	UBERON:0002106
+Tissue stability	sequencing_approach	tag based single cell RNA sequencing	EFO:0008440
+Tissue stability	weight_unit	kilogram	UO:0000009

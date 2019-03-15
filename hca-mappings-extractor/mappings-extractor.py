@@ -12,22 +12,28 @@ pp = pprint.PrettyPrinter(indent=4)
 def extract_mappings(envelope_id, file):
     jsonRaw = requests.get(INGEST_API_URL + envelope_id).json()
 
+    projects_link = jsonRaw['_links']['projects']['href']
+
+    project_json = requests.get(projects_link).json()
+    project_content = project_json['_embedded']['projects'][0]['content']
+
+    project_name = project_content['project_core']['project_short_name']
+
     biomaterials_link = jsonRaw['_links']['biomaterials']['href']
-    process_json(biomaterials_link, 'biomaterials', file)
+    process_json(biomaterials_link, 'biomaterials', file, project_name)
 
     protocols_link = jsonRaw['_links']['protocols']['href']
-    process_json(protocols_link, 'protocols', file)
-
-    # projects_link = jsonRaw['_links']['projects']['href']
+    process_json(protocols_link, 'protocols', file, project_name)
 
 
-def process_json(link, type, file):
+
+def process_json(link, type, file, project_name):
     done = False
     while not done:
         entries = requests.get(link).json()
 
         for entry in entries['_embedded'][type]:
-            read_properties(entry['content'], file)
+            read_properties(entry['content'], file, project_name)
 
         if 'next' in entries['_links']:
             link = entries['_links']['next']['href']
@@ -36,34 +42,18 @@ def process_json(link, type, file):
 
 
 
-def read_properties(data, file, root=None):
+def read_properties(data, file, project_name, root=None):
     for k, v in data.items():
         if isinstance(v, dict):
             if "ontology" in v:
                 ontology = v['ontology'].strip()
                 text = v['text'].strip()
 
-                print(k + "\t" + text + "\t" + ontology)
-                file.write(k + "\t" + text + "\t" + ontology + "\n")
-
-                # entry = text + " - " + ontology
-
-                # if text in all_mappings:
-                #     if ontology not in  all_mappings[text]:
-                #         all_mappings[text].append(ontology)
-                # else:
-                #     all_mappings[text] = [ontology]
-
-                # if root is None:
-                #     root = k
-                # if root in all_mappings:
-                #     if entry not in all_mappings[root]:
-                #         all_mappings[root].append(entry)
-                # else:
-                #     all_mappings[root] = [entry]
+                print(project_name + "\t" + k + "\t" + text + "\t" + ontology)
+                file.write(project_name + "\t" + k + "\t" + text + "\t" + ontology + "\n")
 
             else:
-                read_properties(v, file, k)
+                read_properties(v, file, project_name, k)
 
         elif isinstance(v, list):
             for index, e in enumerate(v):
@@ -72,11 +62,11 @@ def read_properties(data, file, root=None):
                         ontology = e['ontology'].strip()
                         text = e['text'].strip()
 
-                        print(k + "\t" + text + "\t" + ontology)
-                        file.write(k + "\t" + text + "\t" + ontology + "\n")
+                        print(project_name + "\t" + k + "\t" + text + "\t" + ontology)
+                        file.write(project_name + "\t" + k + "\t" + text + "\t" + ontology + "\n")
 
                     else:
-                        read_properties(e, file, k)
+                        read_properties(e, file, project_name, k)
 
 
 if __name__ == '__main__':
@@ -113,6 +103,8 @@ if __name__ == '__main__':
                 '5c51805d5fc0000007998f72'
                     ]
     file = open("all_mappings.text", "w")
+    file.write("STUDY\tPROPERTY_TYPE\tPROPERTY_VALUE\tSEMANTIC_TAG\n")
+
     for eid in envelope_ids:
         print("Processing " + eid)
         extract_mappings(eid, file)
